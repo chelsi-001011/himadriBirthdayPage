@@ -70,6 +70,33 @@ p {
   font-style: italic;
 }
 
+.hexa-pic-1 {
+  background: url(images/IMG_4004.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+  background-position-y: center;
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+.hexa-pic-2 {
+  background: url(images/IMG_5530.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+  background-position-y: inherit;
+  transform: rotate(90deg);
+  position: absolute;
+  right: 40px;
+  bottom: 30px;
+}
+.hexagon {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
 .sl-2 {
   background: url(images/collage.jpg);
   background-repeat: no-repeat;
